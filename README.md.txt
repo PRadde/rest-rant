@@ -2,6 +2,7 @@
 
 REST-Rant is an app where users can review restaurants.
 
+ROUTES DATA
 | Method | Path                     | Purpose                                          |
 |--------|--------------------------|--------------------------------------------------|
 | GET    | /                        | Home Page                                        |
@@ -15,3 +16,12 @@ REST-Rant is an app where users can review restaurants.
 | POST   | /places/:id/rant         | Create a rant (comment) about a particular place |
 | DELETE | /places/:id/rant/:rantid | Delete a rant (comment) about a particular place |
 | GET    | *                        | 404 page (matches any route no defined above)    |
+
+
+PLACES DATA
+| Name                        | City       | State | Cuisines | Picture      |
+|-----------------------------|------------|-------|----------|--------------|
+| Coronas Cantina             | West Salem | WI    | Mexican  | google image |
+| Golden China                | West Salem | WI    | Chinese  | google image |
+| Features Sports bar & Grill | West Salem | WI    | Grill    | google image |
+| Burrachos Mexican Grill     | Onalaska   | WI    | Mexican  | google image |
